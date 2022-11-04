@@ -1,0 +1,302 @@
+@media only screen and (max-width: 900px) and (min-width: 600px){
+    .container {
+        width: 750px;
+        margin: 0px ;
+    }
+    .title {
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+    
+        h2 {
+            font-weight: 700;
+            font-size: 30px;
+            letter-spacing: 0.6px;
+            font-size: 30px;
+        }
+   } 
+   header{
+        background-color: beige;
+        nav{
+            display: none;
+        }
+        .toggle{
+            display: block;
+        }
+   } 
+   main{
+    .promo{
+        display: block;
+        padding: 24px 34px 24px ;
+        width: 100%;
+        background-color: #FDF2E9;
+    
+        .promo__info{
+            max-width: 584px;
+            margin-right: 145px;
+    
+            h1{
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 40px;
+                margin-bottom: 12px;
+            }
+            p{
+                font-weight: 300px;
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 24px;
+            }
+            .promo__btns{
+                margin-bottom: 24px;
+                display: flex; 
+            }
+            .promo__customers{               
+                align-items: center;
+                margin-bottom: 24px;
+
+            }
+        }
+    }
+    .section__featured{
+        width: 100%;
+        padding: 24px 0 25px;
+    
+        h4{
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 14px;
+            }
+        .section__featured__logo{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            overflow: auto;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            img{
+                display: inline-block;
+            }
+        }
+        
+    }
+    .section__how{
+        padding: 48px 0px;
+        
+        .title {
+    
+            .subheading {
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 0.6px;
+                margin-bottom: 12px;
+            }
+            h2{
+                font-weight: 500;
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: 0.6px;
+            }
+        }
+    }
+    .steps{
+        padding-top: 48px;
+    
+        .step{
+            display: block;
+            justify-content: center;
+        
+            &__info{
+                max-width: 700px;
+                display: flex;
+                align-items: center;
+    
+                .step__subheading{
+                    font-weight: 500;
+                    font-size: 70px;
+                    line-height: 70px;
+                }
+            }
+            
+        }   
+    
+    
+    }
+    .meals{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0;
+        &__info{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 96px;
+            margin-bottom: 48px;
+    
+            .meals__card{
+                width: 336px;
+                height: 500px;
+                background-color: white;
+                box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.08);
+                border-radius: 11px;
+                overflow: hidden;
+                .card__img{
+                    width: 100%;
+    
+                    img{
+                        width: 100%;
+                    }
+                }
+                .card__info{
+                    padding: 25px 40px 40px 40px;
+                    h3{
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: #333333;
+                        margin-bottom: 33px;
+                    }
+                }
+            }
+            .diets {
+                    margin: 20px auto;
+                    width: 336px;
+                    h3 {
+                        margin-bottom: 25px;
+                    }
+                }
+    
+    
+            }
+    
+            .meals__link {
+                margin-left: 200px;
+                width: max-content;
+                text-align: center;
+                border-bottom: 1px solid #E67E22;
+                padding-bottom: 2px;
+    
+                a {
+                    font-size: 18px;
+                    color: #E67E22;
+                    text-decoration: none;
+                }
+            }
+    }
+    .testimonials{
+        display: block;
+        width: 100%;
+    
+        .testimonial__info{
+            margin: 70px;
+            width: 100%;
+        
+            .testimonial__cards{
+                display: flex;
+                justify-content: start;                
+                width: 700px;
+                flex-wrap: wrap;
+                gap: 40px;
+                margin-top: 96px;
+        
+                .testimonial__card{
+                    max-width: 240px;
+        
+                    img{
+                        width: 64px;
+                        height: 64px;
+                        margin-bottom: 12px;
+                    }
+        
+                    .testimonial__card__info{
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 32px;
+                        color: #555555;
+                        margin-bottom: 12px;
+                    }
+                    .testimonial__card__abonent{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #6F6F6F;
+                    }
+                }
+            }
+        }
+        .testimonial__imgs{
+            padding-left: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 62px;
+            max-width: 100%;
+            max-height: 850px;
+            justify-content: center;
+            img{
+                display: block;
+                cursor: pointer;
+                width: 175px;
+                height: 195px;
+            }
+        }
+        
+    }
+    .pricing{
+        padding: 70px 0;
+        p{
+            margin-bottom: 16px;
+        }
+        h1{
+            margin-bottom: 0px;
+        }
+        .pricing__cards{
+            padding: 48px 0px 0px 0px;
+            gap: 50px;    
+        }
+        .mincards{
+            margin-top: 70px;
+    
+            .mincard{
+                width: 235px;
+                h3{
+                    font-size: 20px;           
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 32px;
+                    color: #555555;
+                }
+            }
+        }
+    }
+    .contacts{
+        width: 100%;
+        img{
+            display: none;
+            // display: block;
+            // height: 100%;
+        }
+    }
+    .footer{
+        padding: 50px 50px;
+        .contact__card{
+            max-width: 180px;
+            .contact__info{
+                p,span{
+                    font-size: 14px; 
+                 }
+                ul{
+                    li{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    
+   }
+}

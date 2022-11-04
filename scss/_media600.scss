@@ -1,0 +1,310 @@
+@media only screen and (max-width:600px){
+    .container {
+        width: 500px;
+        margin: 0px ;
+    }
+    .title {
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+    
+        h2 {
+            font-weight: 700;
+            font-size: 30px;
+            letter-spacing: 0.6px;
+            font-size: 30px;
+        }
+    } 
+    header{
+        nav{
+            display: none;
+        }
+        .toggle{
+            display: block;
+        }
+   } 
+    main{
+    .promo{
+            display: block;
+            padding: 24px 34px 24px ;
+            width: 100%;
+        
+            .promo__info{
+                width: 100%;
+                display: block;     
+                margin-right: 145px;
+        
+                h1{
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 40px;
+                    margin-bottom: 12px;
+                }
+                p{
+                    font-weight: 300px;
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: 24px;
+                }
+                .promo__btns{
+                    margin-top: 30px;
+                    margin-bottom: 24px;
+                    display: block;
+                    a{
+                        &:last-child{
+                            margin: 0px;
+                        }
+                        margin-left: 0px;
+                    }
+                    }
+                }
+            .promo__customers{ 
+                    margin-top: 40px;              
+                    align-items: center;
+                    margin-bottom: 24px;
+
+            }
+            .promo__img{
+                display: none;
+            }
+    }
+    .section__featured{
+        display: none;
+        width: 100%;
+        padding: 24px 0 25px;
+    
+        h4{
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 14px;
+            }
+        .section__featured__logo{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            overflow: auto;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            img{
+                display: inline-block;
+            }
+        }
+        
+    }
+    .section__how{
+        padding: 48px 0px;
+        
+        .title {
+    
+            .subheading {
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 0.5 px;
+                margin-bottom: 12px;
+            }
+            h2{
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: 0.6px;
+            }
+        }
+    }
+    .steps{
+        width: 100%;
+        padding-top: 48px;        
+            .step{
+                display: block;
+                &__info{
+                    display: block;
+                }
+            }
+            
+    }   
+    .meals{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0;
+        &__info{
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 50px;
+            margin-bottom: 48px;
+    
+            .meals__card{
+                margin: 20px auto;
+                .card__img{
+                    width: 100%;
+    
+                    img{
+                        width: 100%;
+                    }
+                }
+                .card__info{
+                    padding: 25px 40px 40px 40px;
+                    h3{
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: #333333;
+                        margin-bottom: 33px;
+                    }
+                }
+            }
+            .diets {
+                    margin: 20px auto;
+                    width: 336px;
+                    h3 {
+                        margin-bottom: 25px;
+                    }
+                }
+    
+    
+            }
+    
+            .meals__link {
+                margin-left: 200px;
+                width: max-content;
+                text-align: center;
+                border-bottom: 1px solid #E67E22;
+                padding-bottom: 2px;
+    
+                a {
+                    font-size: 18px;
+                    color: #E67E22;
+                    text-decoration: none;
+                }
+            }
+    }
+    .testimonials{
+        display: block;
+        width: 100%;
+        padding: 0;
+    
+        .testimonial__info{
+            margin-left: 0;
+            width: 100%;
+            .testimonial__cards{  
+        
+                display: flex;
+                flex-wrap: wrap;            
+                margin-top: 50px;
+                justify-content: space-around;                
+           
+        
+                .testimonial__card{
+                    max-width: 240px;
+        
+                    img{
+                        width: 64px;
+                        height: 64px;
+                        margin-bottom: 12px;
+                    }
+        
+                    .testimonial__card__info{
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 32px;
+                        color: #555555;
+                        margin-bottom: 12px;
+                    }
+                    .testimonial__card__abonent{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #6F6F6F;
+                    }
+                }
+            }
+        }
+        .testimonial__imgs{
+            padding-left: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 62px;
+            max-width: 100%;
+            max-height: 850px;
+            justify-content: center;
+            img{
+                display: block;
+                cursor: pointer;
+                width: 175px;
+                height: 195px;
+            }
+        }
+        
+    }
+    .pricing{
+        padding: 70px 0;
+        p{
+            margin-bottom: 16px;
+        }
+        h1{
+            margin-bottom: 0px;
+        }
+        .pricing__cards{
+            width: 100%;
+            padding: 48px 0px 0px 0px;
+            gap: 20px;    
+        }
+        .mincards{
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+    
+            .mincard{
+                width: max-content;
+                h3{
+                    font-size: 20px;           
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 32px;
+                    color: #555555;
+                }
+            }
+        }
+    }
+    .contacts{
+        width: 100%;
+        img{
+            display: none;
+            // display: block;
+            // height: 100%;
+        }
+    }
+    .footer{
+        
+        width: 100%;
+        padding: 50px 50px;
+        .container__footer{
+            display: flex;
+            flex-wrap: wrap;
+            .contact__card{
+                margin-top: 20px;
+                max-width: max-content;
+                .contact__info{
+                    p,span{
+                        font-size: 14px; 
+                     }
+                    ul{
+                        li{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+
+}
+    
